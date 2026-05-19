@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe | Flavour Fusion</title>
-    <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/recipe.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/recipe.css">
 </head>
 <body>
-    <!-- FLAVOUR FUSION LOADER -->
     <div id="fusion-loader">
         <div class="eating-container">
             <div class="pac-man"></div>
@@ -22,7 +21,7 @@
     <div class="background-overlay"></div>
     <nav class="top-nav">
         <div class="logo">
-            <img src="/Logo/logo.png" height="35px" width="50px" alt="logo">
+            <img src="Logo/logo.png" height="35px" width="50px" alt="logo">
              Flavour Fusion
         </div>
         <ul class="nav-links">
@@ -102,8 +101,8 @@
         </div>
     </footer>
 
-    <script src="/js/data.js"></script>
-    <script src="/js/theme.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/theme.js"></script>
     
 <script>
         // Wrapping everything in a Try/Catch block to catch silent crashes
@@ -131,6 +130,7 @@
                         videoElement.src = matchedRecipe.videoLink;
                         videoElement.load(); // Forces the browser to load the new file
                         videoContainer.style.border = "none";
+                        videoContainer.style.background = "transparent";
                         videoContainer.style.background = "transparent";
                     } else {
                         // Hide the video box if no video is linked in data.js
