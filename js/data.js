@@ -61,7 +61,7 @@ const recipes = [
 
     // CHINESE
     { id: "ch1", title: "Veg Chowmein", tags: ["Chinese", "Veg"], image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=500", pageLink: "recipe.html", videoLink: "Videos/sunda.mp4",
-        ingredients: [ { amount: 200, unit: "grams", name: "Chowmein Noodles" }, { amount: 1, unit: "cup", name: "Cabbage (shredded)" }, { amount: 0.5, unit: "cup", name: "Carrots (julienned)" }, { amount: 2, unit: "tbsp", name: "Soy Sauce" }, { amount: 1, unit: "tbsp", name: "Vinegar" }, { amount: 1, unit: "tbsp", name: Green Chilli Sauce" } ]
+        ingredients: [ { amount: 200, unit: "grams", name: "Chowmein Noodles" }, { amount: 1, unit: "cup", name: "Cabbage (shredded)" }, { amount: 0.5, unit: "cup", name: "Carrots (julienned)" }, { amount: 2, unit: "tbsp", name: "Soy Sauce" }, { amount: 1, unit: "tbsp", name: "Vinegar" }, { amount: 1, unit: "tbsp", name: "Green Chilli Sauce" } ]
     },
     { id: "ch2", title: "Veg Manchurian", tags: ["Chinese", "Veg"], image: "https://i.ytimg.com/vi/xkMbJCtaaqA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDrMLgdijp9TJ92IUYugdtisp2tIw", pageLink: "recipe.html", videoLink: "Videos/manchurian.mp4",
         ingredients: [ { amount: 2, unit: "cups", name: "Cabbage (finely grated)" }, { amount: 0.5, unit: "cup", name: "Carrots (grated)" }, { amount: 0.25, unit: "cup", name: "Corn Flour" }, { amount: 2, unit: "tbsp", name: "Soy Sauce" }, { amount: 4, unit: "cloves", name: "Garlic (minced)" }, { amount: 1, unit: "tbsp", name: "Dark Soy Sauce" } ]
